@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Blog</h2>
+<ul class="list-group">
+  {% for post in posts %}
+    <li class="list-group-item">
+      <a href="{% url 'post_detail' slug=post.slug %}">
+        <strong>{{ post.title }}</strong>
+      </a>
+      <p>{{ post.created_at|date:"F j, Y" }}</p>
+    </li>
+  {% empty %}
+    <li class="list-group-item">No blog posts yet.</li>
+  {% endfor %}
+</ul>
+{% endblock %}
+
