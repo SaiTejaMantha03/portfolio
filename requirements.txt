@@ -5,3 +5,8 @@ psycopg2-binary
 dj-database-url
 packaging==23.2
 setuptools==68.2.2
+# Add these at the bottom
+pip==24.0
+setuptools==68.2.2
+packaging==23.2
+
