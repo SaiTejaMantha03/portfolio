@@ -1,60 +1,7 @@
-# ✅ Safety upgrades to avoid InvalidVersion: '6.8.0-1029-aws'
-pip>=24.0
-setuptools>=70.0.0
-packaging>=24.0
-
-# ✅ Django web framework
-Django==5.2
-
-# ✅ WSGI server for production
-gunicorn==23.0.0
-
-# ✅ For static file handling
-whitenoise==6.6.0
-
-# ✅ For database support (MySQL)
-mysqlclient==2.2.7
-
-# ✅ Google / OpenAI / generative APIs
-google-ai-generativelanguage==0.6.15
-google-api-core==2.25.0rc1
-google-api-python-client==2.170.0
-google-auth==2.40.2
-google-auth-httplib2==0.2.0
-google-generativeai==0.8.5
-openai==1.82.1
-proto-plus==1.26.1
-protobuf==5.29.5
-httplib2==0.22.0
-uritemplate==4.1.1
-
-# ✅ HTTP and async
-httpx==0.28.1
-httpcore==1.0.9
-anyio==4.9.0
-h11==0.16.0
-sniffio==1.3.1
-
-# ✅ Utilities
-requests==2.32.3
-charset-normalizer==3.4.2
-idna==3.10
-urllib3==2.4.0
-cachetools==5.5.2
-packaging==25.0
-pyparsing==3.2.3
-rsa==4.9.1
-pyasn1==0.6.1
-pyasn1_modules==0.4.2
-
-# ✅ Pydantic and type tools
-pydantic==2.11.5
-pydantic_core==2.33.2
-typing-inspection==0.4.1
-typing_extensions==4.13.2
-annotated-types==0.7.0
-
-# ✅ Other (optional but useful)
-sqlparse==0.5.3
-tqdm==4.67.1
-wheel==0.45.1
+Django>=4.2,<5.0
+gunicorn
+whitenoise
+psycopg2-binary
+dj-database-url
+packaging==23.2
+setuptools==68.2.2
