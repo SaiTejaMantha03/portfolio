@@ -1,3 +1,8 @@
+# ✅ Safety upgrades to avoid InvalidVersion: '6.8.0-1029-aws'
+pip>=24.0
+setuptools>=70.0.0
+packaging>=24.0
+
 # ✅ Django web framework
 Django==5.2
 
@@ -5,7 +10,7 @@ Django==5.2
 gunicorn==23.0.0
 
 # ✅ For static file handling
-whitenoise
+whitenoise==6.6.0
 
 # ✅ For database support (MySQL)
 mysqlclient==2.2.7
@@ -49,8 +54,7 @@ typing-inspection==0.4.1
 typing_extensions==4.13.2
 annotated-types==0.7.0
 
-# ✅ Other (if needed)
+# ✅ Other (optional but useful)
 sqlparse==0.5.3
 tqdm==4.67.1
 wheel==0.45.1
-setuptools==78.1.0
